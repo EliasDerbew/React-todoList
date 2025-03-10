@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Grechen+Fuemen&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prociono&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sigmar&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.main__tasks {
+  display: grid;
+ justify-content: center;
+  padding: 30px;
+  background-color: rgba(88, 130, 103, 0.478);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  min-height: 27rem;
+}
+
+li {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  align-items: center;
+  margin: 10px;
+  gap: 4px;
+  border-bottom: 2px solid rgb(107, 69, 69);
+  padding: 5px;
+}
+
+.check__box {
+  height: 20px;
+  width: 40px;
+}
+
+.remove__btn {
+  background-color: transparent;
+  border: none;
+  border-radius: 50%;
+  color: red;
+  font-size: 35px;
+  font-family: "DynaPuff", sans-serif;
+  cursor: pointer;
+}
+
+.remove__btn:hover {
+  box-shadow: 1px 1px 10px rgb(13, 22, 13, 0.2);
+}
+
+.remove__btn:active {
+  box-shadow: 1px 1px 10px rgb(13, 22, 13, 0.5);
+}

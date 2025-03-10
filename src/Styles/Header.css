@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Grechen+Fuemen&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prociono&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sigmar&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.header {
+  background-color: rgb(11, 21, 75);
+  padding: 20px;
+  display: grid;
+  place-content: center;
+  text-align: center;
+  min-height: 10rem;
+  color: white;
+}
+
+.header h1 {
+  font-family: "DynaPuff", sans-serif;
+  padding: 10px;
+  font-size: 2.5rem;
+}
+
+.header p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.input__task {
+  height: 40px;
+  min-width: 25rem;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.add__btn {
+  height: 40px;
+  border: none;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  font-family: "DynaPuff", sans-serif;
+  background-color: greenyellow;
+}
+
+.add__btn:hover {
+    box-shadow: 1px 1px 10px rgb(21, 134, 4);
+    background-color: rgb(153, 255, 0);
+    cursor: pointer;
+    color: rgb(106, 21, 21);
+}
+
+
+.add__btn:active {
+    background-color:rgb(45, 215, 19);
+    color: rgb(112, 38, 38);
+}
+.input__and__btn {
+    margin: 20px 0;
+    display: flex;
+    gap: 20px;
+}

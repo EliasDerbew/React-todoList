@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Dancing+Script:wght@400..700&family=DynaPuff:wght@400..700&family=Grechen+Fuemen&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prociono&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sigmar&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.footer {
+    background-color: rgb(115, 93, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+select {
+    border: none;
+    padding: 10px;
+    font-family:"Josefin Sans", sans-serif;
+    border-radius: 0.25rem;
+    background-color: rgb(171, 171, 250);
+    cursor: pointer;
+}
+
+.clear__all {
+    height: 35px;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0 20px;
+    background-color: rgb(109, 14, 14);
+    color: white;
+    font-family: "DynaPuff", sans-serif;
+    cursor: pointer;
+}
+
+.clear__all:hover{
+    background-color: brown;
+}
+
+.clear__all:active {
+    background-color:rgb(109, 14, 14);
+}
