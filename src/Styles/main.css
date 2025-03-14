@@ -2,9 +2,9 @@
 
 .main__tasks {
   display: grid;
- justify-content: center;
+  justify-content: center;
   padding: 30px;
-  background-color: rgba(88, 130, 103, 0.478);
+  background-color: rgba(23, 37, 28, 0.478);
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
   min-height: 27rem;

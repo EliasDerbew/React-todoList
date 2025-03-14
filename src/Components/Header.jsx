@@ -4,6 +4,7 @@ export default function Header({
   task,
   onSetTask,
   onSubmiteHandle,
+  onHandleText,
 }) {
   return (
     <form className="header" onSubmit={onSubmiteHandle}>
@@ -20,7 +21,9 @@ export default function Header({
           value={task}
           onChange={(e) => onSetTask(e.target.value)}
         />
-        <button className="add__btn">Add to task</button>
+        <button className="add__btn" onClick={onHandleText}>
+          Add to task
+        </button>
       </div>
     </form>
   );
